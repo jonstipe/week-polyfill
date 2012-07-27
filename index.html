@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <title>Week polyfill</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery.ui.all.css" />
+    <link rel="stylesheet" href="week-polyfill.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://www.modernizr.com/downloads/modernizr-latest.js"></script>
+    <script type="text/javascript" src="week-polyfill.js"></script>
+  </head>
+  <body>
+<form id="form-demo"> 
+<dl>
+<dt>week (with value, min, and max)</dt>
+<dd><input type="week" name="myWeek0" value="2000-W01" min="1999-W01" max="2000-W52" /></dd>
+
+<dt>week (with value and max)</dt>
+<dd><input type="week" name="myWeek1" value="2000-W01" max="2000-W52" /></dd>
+
+<dt>week (with value and min)</dt>
+<dd><input type="week" name="myWeek2" value="2000-W01" min="1999-W01" /></dd>
+
+<dt>week (with value and step)</dt>
+<dd><input type="week" name="myWeek3" value="2000-W01" step="4" /></dd>
+
+<dt>week (with value, min, max, and step)</dt>
+<dd><input type="week" name="myWeek4" value="2000-W01" min="1999-W01" max="2000-W52" step="2" /></dd>
+
+<dt>week (with min and max)</dt>
+<dd><input type="week" name="myWeek5" min="1999-W01" max="2000-W52" /></dd>
+
+<dt>week (with just min)</dt>
+<dd><input type="week" name="myWeek6" min="1999-W01" /></dd>
+
+<dt>week (with just max)</dt>
+<dd><input type="week" name="myWeek7" max="2000-W12" /></dd>
+
+<dt>week (with just step)</dt>
+<dd><input type="week" name="myWeek8" step="3" /></dd>
+
+<dt>week (with min, max, and step)</dt>
+<dd><input type="week" name="myWeek9" min="1999-W01" max="2000-W52" step="3" /></dd>
+
+<dt>week (with min and step)</dt>
+<dd><input type="week" name="myWeek10" min="1999-W01" step="4" /></dd>
+
+<dt>week (with max and step)</dt>
+<dd><input type="week" name="myWeek11" max="2000-W52" step="4" /></dd>
+
+<dt>week (with value, min, max, and step=any)</dt>
+<dd><input type="week" name="myWeek12" value="2000-W26" min="2000-W01" max="2000-W52" step="any" /></dd>
+
+<dt>week (with value, max, and step=any)</dt>
+<dd><input type="week" name="myWeek13" value="2000-W26" max="2000-W52" step="any" /></dd>
+
+<dt>week (with value, min, and step=any)</dt>
+<dd><input type="week" name="myWeek14" value="2000-W26" min="2000-W01" step="any" /></dd>
+
+<dt>week (with max and step=any)</dt>
+<dd><input type="week" name="myWeek15" max="2000-W52" step="any" /></dd>
+
+<dt>week (with min and step=any)</dt>
+<dd><input type="week" name="myWeek16" min="2000-W01" step="any" /></dd>
+
+<dt>week (with step=any)</dt>
+<dd><input type="week" name="myWeek17" step="any" /></dd>
+
+<dt>week (without anything)</dt>
+<dd><input type="week" name="myWeek18" /></dd>
+</dl>
+<input type="submit" />
+</form> 
+</body>
+</html>
