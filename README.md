@@ -4,7 +4,7 @@ This is a polyfill for implementing the HTML5 `<input type="week">` element in b
 
 ## Usage
 
-Using it is easy — simply include the `week-polyfill.js` file in the HEAD of the HTML page.  
+Using it is easy — simply include the `week-polyfill.min.js` file in the HEAD of the HTML page.  
 You can then use `<input type="week">` elements normally.
 
 If the script detects that the browser doesn't support `<input type="week">`, it will search for these elements and replace them with a jQuery UI datepicker to select the week. The week selection is stored in a hidden form field and submitted with the form in the standard format.
